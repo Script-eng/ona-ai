@@ -1,11 +1,14 @@
-Packages to install:
+## 📂 Project Structure
 
-The following packages are needed for this project:
-* **PyPDFS**: For reading, manipulating, and extracting text from PDF files. This package helps in working with PDFs programmatically.
-* **langchain**: Provides a framework for developing applications powered by language models, including utilities for prompt management and other integrations.
-* **langchain_community**: Extends LangChain with additional modules such as Ollama, which is used for integration with various community-maintained language models.
-* **ipython**: Using Markdown from this package for visualizing and formatting text more easily, especially useful in creating structured and styled documents and web content.
+Two separate environments are required.
 
-You can install them with the following command: **!pip install PyPDF2 langchain langchain_community ipython**
+First, pip install requirements.txt
+source venv/bin/activate
+streamlit run mainmain.py
 
+cd SadTalker-Implementation
+source venv/bin/activate
+uvicorn api:app --host 0.0.0.0 --port 7861 --reload
 
+export GROQ_API_KEY=your_groq_api_key
+export SADTALKER_API=http://127.0.0.1:7861/generate_video

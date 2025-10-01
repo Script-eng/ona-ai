@@ -1,0 +1,148 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-env/
+pipenv/
+.poetry/
+.conda/
+.pex/
+
+
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+.pytype/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Type checker and formatter caches
+.dmypy.json
+dmypy.json
+
+# Translations
+*.mo
+*.pot
+
+# Django-related
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Flask / FastAPI
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.profile.d/
+# JupyterLab
+.jupyter/lab/workspaces/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Pydantic / cached settings
+*.env
+.env
+.env.*
+*.ini.local
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Papers / docs
+docs/_build/
+site/
+
+# PyBuilder
+target/
+
+# Sphinx
+.sphinx/_build/
+_build/
+
+# Bytecode caches in subdirs you might vendor
+**/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs & editors
+.vscode/
+.idea/
+*.iml
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+
+# Databases & data dumps
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Docker (optional – ignore local dev artifacts)
+docker-compose.override.yml
+.env.docker

@@ -1,0 +1,12 @@
+Create a virtual environment using(If on Linux or Mac, find relevant code):
+python -m venv venv ; venv\Scripts\activate 
+
+
+First run:
+pip install -r requirements.txt
+
+Then go to scripts folder and run:
+python download_models.py
+
+After successful model download, return to main folder and run:
+python app_sadtalker.py

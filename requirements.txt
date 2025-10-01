@@ -1,0 +1,12 @@
+streamlit
+streamlit_mic_recorder
+pypdf2
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+openai-whisper
+gtts
+chromadb
+tiktoken
+pymupdf
